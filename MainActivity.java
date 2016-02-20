@@ -41,7 +41,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
  * Constants for location update parameters
  */
     // Milliseconds per second
-    private static final int MILLISECONDS_PER_SECOND = 1000;
+    private static final int MILLISECONDS_PER_SECOND = 1001;
 
 
     // The update interval
@@ -50,8 +50,6 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
     // A fast interval ceiling
     private static final int FAST_CEILING_IN_SECONDS = 1;
-
-
 
 
     // Update interval in milliseconds
